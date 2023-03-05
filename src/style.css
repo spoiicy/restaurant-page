@@ -1,0 +1,26 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    padding:30px;
+    margin: 0px 200px ;
+    background-color: aquamarine;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    gap: 50px;
+}
+
+.content-div{
+    text-align: center;
+    height: 100vh;
+    background-color: bisque;
+    margin: 0px 200px ;
+    padding: 30px;
+    border-radius: 30px;
+    
+}
