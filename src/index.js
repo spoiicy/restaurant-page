@@ -1,6 +1,7 @@
 import { myPage } from "./initial_page";
 import './style.css';
 import { menuPage } from "./menu";
+import { aboutUs } from "./about_us";
 
 
 let navbar = document.createElement('div');
@@ -34,6 +35,12 @@ home_link.addEventListener('click',()=>{
 menu_link.addEventListener('click',()=>{
     document.querySelector('#content-div').remove();
     menuPage(content_container);
+})
+
+about_us_link.addEventListener('click',()=>{
+    document.querySelector('#content-div').remove();
+    aboutUs(content_container);
+
 })
 
 
