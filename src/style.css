@@ -6,16 +6,20 @@
 
 .nav-bar{
     display: flex;
-    justify-content: center;
-    padding:30px;
+    justify-content: space-around;
+    padding:20px;
     margin: 0px 200px ;
     background-color: aquamarine;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    gap: 50px;
+    gap: 20px;
 }
 
-.content-div{
+#content-div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
     text-align: center;
     height: 100vh;
     background-color: bisque;
@@ -23,4 +27,12 @@
     padding: 30px;
     border-radius: 30px;
     
+}
+
+.menu-content p{
+    padding: 0px 170px;
+}
+
+img{
+    border-radius: 20px;
 }
